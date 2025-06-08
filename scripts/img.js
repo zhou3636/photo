@@ -49,7 +49,7 @@ function generateImageManifest() {
 
         // 3. 写入JSON文件
         fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2));
-        console.log(`成功生成 ${result.length} 个图片信息到 ${OUTPUT_FILE}`);
+        console.log(`✅成功生成 ${result.length} 个图片信息到 ${OUTPUT_FILE}`);
 
     } catch (error) {
         console.error('出错:', error.message);

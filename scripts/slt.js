@@ -7,7 +7,7 @@ async function generateThumbnails() {
   const inputDir = path.join('./dist/img');   // 文件存放目录;
   const outputDir = path.join('./dist/img2');   // 文件存放目录;
   
-  console.log('🚀 开始生成缩略图...');
+  console.log('开始生成缩略图...');
   
   // 创建输出目录
   if (!fs.existsSync(outputDir)) {
@@ -43,8 +43,7 @@ async function generateThumbnails() {
       console.error(`✗ ${file}: ${error.message}`);
     }
   }
-  
-  console.log('✅ 缩略图生成完成！');
+  console.log(`✅缩略图生成完成！`);
 }
 
 generateThumbnails().catch(console.error);

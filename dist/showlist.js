@@ -1,3 +1,5 @@
+
+// v1
 async function loadImageList() {
     try {
         // 读取JSON文件

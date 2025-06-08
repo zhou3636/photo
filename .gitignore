@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: 其他常见的需要忽略的文件
+.env
+.DS_Store
+build/

@@ -16,10 +16,10 @@ async function loadImageList() {
             div.innerHTML = `
                 <div class="photo-card">
                     <div class="photo" data-src="img/${item.file}" onclick="showImage(this)">
-                    <img class="img1" src="img2/${item.file}" alt="图片" onerror="this.style.display='none'">
+                    <img class="img-s" src="img2/${item.file}" alt="图片" onerror="this.style.display='none'">
                     </div>
-                    <h3>${item.tittle}</h3>
-                    <span>${item.date}</span>
+                    <span class='title'>${item.title}</span>
+                    <span class='date'>${item.date}</span>
                 </div>  
             `;
             container.appendChild(div);

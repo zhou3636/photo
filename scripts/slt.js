@@ -28,7 +28,7 @@ async function generateThumbnails() {
     
     try {
       await sharp(inputPath)
-        .resize(500, 375, { 
+        .resize(400, 300, { 
           fit: 'cover',
           position: 'center'
         })
